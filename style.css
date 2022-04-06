@@ -22,9 +22,9 @@ body{
     align-items: center;
 }
 
-.result{
-    color: white;
-    margin: 20px 0px;
+.output{
+    color: white;   
+    height: 40px;
 }
 
 .buttons{
@@ -43,6 +43,7 @@ body{
     color: white;
     cursor: pointer;
     transition: all 0.07s ease-in;
+    user-select: none;
 }
 
 .buttons button:hover{
